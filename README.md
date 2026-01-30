@@ -42,9 +42,27 @@ Linux distro ported to NDK to run directly on Android to improve performance ove
 ### PuppeteerQJS
 Port puppeter to QJS (qjsNetworkSockets based, need C SSL support first)
 
+### BashTestingLib
+Library for professional testing of bash apps
+
+### CLIGUI
+Study all the possible approachs to generate rich native UI interfaces ran from terminal apps (Probably needs a Termux fork and api fix to port to desktop with Electron, Kivi, QT, or Web)
+
+### SocialNetwork
+A free social network based on P2P
+
+### SIMPLE2026
+Redesign of the programming language to compile to other languages
+
+### GithubHostedComponents
+- Host modules and other stuff directly on github and import them locally (json?, no idea how this will work on node and browser (tainted DOM))
+
+### AndroidUnroot
+- API that garants max Android control possible without root.
+
 ----------
 
-## Features
+## Features / Updates
 
 ### AutoPwn
 - Start writting simple demo modules that can be improved later
@@ -113,4 +131,45 @@ Port puppeter to QJS (qjsNetworkSockets based, need C SSL support first)
 
 ### HackingTermux
 - Keep Working on it (find first revenue sources for the project)
+- Swap ngrok references for new hosting mobile (book revision n°2)
+
+### OP5
+- Make a modern GUI
+- Add more sources
+
+### Pidgeon
+- Port to serverless
+- Improve crypto
+- Add Android frontend (maybe webview based for simplicity)
+
+### Methodology
+- Make a cli tool that allows to check mark vulns checked in research (also web version with localstorage) to keep track of vulns non/tested
+- Update it to include AI vulns, and new vulns
+
+### nbmxbsf 
+- Add testing.
+- Make more public modules
+
+### stop
+- Improve subdomain takeover tool
+
+### email
+- Update to 2026 (probably not working anymore)
+
+### Panther (v2)
+- Paid version (not full open source)
+- Autoupdates
+- Tabs
+- Background videos in floating window
+- Fullscreen support for videos
+- scriptable.sleep
+- AI support (uses demo api for free / guides user how to get their own key / 100% automated on first run?) 
+- AI support APIs fallback (different free apis and lastly, local llm + llama.cpp as NDK)
+- Improve UI (modern design and new images)
+- Allow to config start screen
+- Fix http support (allowed by default, option to config)
+- New settings menu
+- Improve userAgent change on UI
+- Allows to run as a floating window like Termux:Float
+
 

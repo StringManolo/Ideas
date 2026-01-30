@@ -81,6 +81,8 @@ Redesign of the programming language to compile to other languages
 - UserScripts like TamperMonkey to automatize telegram tasks
 - Make estable core with modules so it can be extended with AI support, etc
 - Check how to load everything with CLI so UserScript can expose an API to control it from CLI.
+- Needs severe amount of testing to detect updates and make the project work in the future if changes are made to the web
+- Need carefull security designed approach to avoid security problems
 
 ----------
 

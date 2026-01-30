@@ -60,6 +60,28 @@ Redesign of the programming language to compile to other languages
 ### AndroidUnroot
 - API that garants max Android control possible without root.
 
+### DebianBasedDistro
+- Designed for Proot / qemu
+- Make it main system
+- Installer with ncursesw or raw bash to select default packages when installed (this way i can chose between installing a "hacking, dev, user, minimal, ..." distro version.
+
+### ChromiteCLI
+- Control Android Chromite from terminal (test how bypass security without root to control the browser)
+- Ideas on how to:
+  - UserScript that exposes API (can't bind locally no?)
+  - Chrome protocol (is it even available)
+  - Browser extensions (can extensions bind ports? does rev shell works fine here? This might be most solid approach for close to full browser control)
+  - Proxy (can a local proxy do this? i don't think so)
+  - UserScript that connects to local service (this should work to have control of a single webpage? But context will be lost. Maybe acting as a push and pull server and loading the script in every single webapage will do the trick, but i will have no control over the full browser, only webpages context, but might be enought for lot of usages like simple navigation).
+
+### TelegramMinimalWeb
+- Create a web client to run Telegram (purpouse to create automation, cli control, etc without security/privacy problems). 
+
+### TelegramWebManager
+- UserScripts like TamperMonkey to automatize telegram tasks
+- Make estable core with modules so it can be extended with AI support, etc
+- Check how to load everything with CLI so UserScript can expose an API to control it from CLI.
+
 ----------
 
 ## Features / Updates
@@ -171,5 +193,9 @@ Redesign of the programming language to compile to other languages
 - New settings menu
 - Improve userAgent change on UI
 - Allows to run as a floating window like Termux:Float
+- User Scripts
+- User Automation (manage automation "workflows")
+- Port to Kotlin?
+
 
 
